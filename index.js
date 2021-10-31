@@ -34,3 +34,11 @@ function backToTop() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
 }
+
+
+$(".filter-dropdown").on("click", ".dropdown-toggle", function(e) { 
+  e.preventDefault();
+  $(this).parent().addClass("show");
+  $(this).attr("aria-expanded", "true");
+  $(this).next().addClass("show"); 
+});
