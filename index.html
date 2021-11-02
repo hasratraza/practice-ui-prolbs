@@ -15,6 +15,7 @@
 </head>
 
 <body>
+  <div id="home-screen">
   <!-- navigation bar -->
   <header class="header container">
     <div class="logo"><a href="/"> <img src="assets/images/logo.png" alt=""> </a></div>
@@ -107,7 +108,7 @@
     </nav>
   </header>
   <!-- welcome screen -->
-  <div class="welcome-section my-md-5 my-sm-0 my-lg-5">
+  <div class="welcome-section my-md-1 my-sm-0 my-lg-1">
     <div class="container">
       <div class="row">
         <div class="col-md-6">
@@ -322,11 +323,11 @@
       </div> -->
     </div>
   </div>
-  <div class="video-section">
+  <div class="video-section mt-md-5">
     <div class="container-fluid">
       <div class="row">
-        <div class="col-md-12 text-center">
-          <video src="assets/images/big_buck_bunny_720p_5mb.mp4" autoplay muted class="thumb" style="max-width: 100%;">
+        <div class="col-md-12 text-center my-auto">
+          <video src="assets/images/big_buck_bunny_720p_5mb.mp4" autoplay muted loop class="thumb" style="max-width: 100%;">
             <source type="video/mp4" src="assets/images/big_buck_bunny_720p_5mb.mp4">
           </video>
         </div>
@@ -349,7 +350,7 @@
     </div>
   </div>
   <!-- company slider section -->
-  <div class="company-slider-section my-lg-5 my-md-5 my-sm-2">
+  <div class="company-slider-section my-lg-5 my-md-5 my-sm-5">
     <div class="container-fluid">
       <div class="row">
         <marquee behavior="scroll" direction="left" scrollamount="15">
@@ -496,8 +497,8 @@
   <div class="container-fluid my-md-5 our-clients">
     <div class="row">
       <div class="col-md-10 mx-auto">
-        <h1 class="text-center gradient-text mb-md-3">Our Clients</h1>
-        <h5 class="text-center gradient-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus,
+        <h1 class="text-center gradient-text my-md-3  my-5">Our Clients</h1>
+        <h5 class="text-center gradient-text my-md-5 my-5 my-sm-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus,
           dolorum? Veritatis consequuntur tenetur, provident exercitationem repellendus minus perferendis? Temporibus
           sed rerum nam consectetur animi repellendus veritatis aut asperiores odio eligendi?</h5>
       </div>
@@ -519,7 +520,7 @@
   <div class="contact-section">
     <div class="container">
       <div class="row">
-        <div class="col-md-10 mx-auto contact-form my-md-4">
+        <div class="col-md-8 mx-auto contact-form my-md-4">
           <!-- <h1>Get In Touch</h1> -->
           <form>
             <div class="form-row">
@@ -558,12 +559,14 @@
   </div>
   <!-- footer section -->
   <div class="footer-section">
-    <div class="container">
+    <div class="container-fluid">
       <div class="row">
         <div class="col-md-12 py-md-2">
-          <h3>Professional Labs</h3>
+          <h2>Professional Labs</h2>
         </div>
         <div class="col-md-4 py-md-3 address">
+          <h3 class="useful-link-heading">Contact Details</h3>
+
           <h6 class="d-flex"><img src="assets/images/location-marker.png" class="location-icon pr-md-3 pr-3"
               alt="marker"> Office No. 514, Clover hills plaza NIBM road, Kondhwa, pune 4111048</h6>
           <h6 class="pl-md-5 pl-5">Dubai: Office no 124, hilal bank AL qiasis 2</h6>
@@ -589,6 +592,25 @@
             </ul>
           </div>
         </div>
+        <div class="col-md-4 py-md-2 py-2">
+          <h3 class="useful-link-heading">Latest Articles</h3>
+          <div class="useful-link d-flex">
+            <ul>
+              <li class="d-flex align-items-center pb-1 py-md-1">
+                <i class="fa fa-chevron-right pr-md-2 pr-2" aria-hidden="true"></i>
+                <img src="assets/images/home/services1.jpeg"
+                class="pr-md-2 pr-2" alt="phone" height="50px" width="60px"><span style="color: white;">lorem ipsum test <br><span>25 January, 2015</span> </span></li>
+                <li class="d-flex align-items-center pb-1 py-md-1">
+                  <i class="fa fa-chevron-right pr-md-2 pr-2" aria-hidden="true"></i>
+                  <img src="assets/images/home/services1.jpeg"
+                  class="pr-md-2 pr-2" alt="phone" height="50px" width="60px"><span style="color: white;">lorem ipsum test <br><span>25 January, 2015</span> </span></li>
+                  <li class="d-flex align-items-center pb-1 py-md-1">
+                    <i class="fa fa-chevron-right pr-md-2 pr-2" aria-hidden="true"></i>
+                    <img src="assets/images/home/services1.jpeg"
+                    class="pr-md-2 pr-2" alt="phone" height="50px" width="60px"><span style="color: white;">lorem ipsum test <br><span>25 January, 2015</span> </span></li>
+            </ul>
+          </div>
+        </div>
       </div>
       <footer class="d-flex mt-md-4 mt-4 align-items-center">
         <p class="copyright">Copyright &#xA9; <script>
@@ -604,7 +626,7 @@
       </footer>
     </div>
   </div>
-
+</div>
   <button type="button" class="btn btn-floating btn-lg" id="btn-back-to-top">
     <i class="fa fa-arrow-up" aria-hidden="true"></i>
   </button>
